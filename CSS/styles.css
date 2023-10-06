@@ -348,16 +348,14 @@ body{
     padding-bottom:72px;
     padding-left:156px;
 }
-.filter-list-container{
-    padding: 96px 271px 72px;
-    
-}
+
 .filter-list {
     list-style: none;
     white-space: nowrap;
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
+    padding: 96px 271px 72px;
 }
 .btn-filter {
     font-size: 16px;
