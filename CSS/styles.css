@@ -31,7 +31,7 @@ body{
     font-family: "roboto", "sans-serif";
 }
 .container{
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 0 15px;
     margin: 0 auto;
 
@@ -79,7 +79,7 @@ body{
 }
 .main-header-menu{
     margin:0px;
-    padding-right:250px;
+    padding-right:332px;
     list-style: none;
 
     display: inline-flex;
@@ -124,11 +124,10 @@ body{
 /*hero section*/
 .hero-section{
     background-color: var(--navy-blue);
-    width: 1158px;
+    width: 1440px;
     height: 600px;
     flex-shrink: 0;
 
-    
 }
 .main-section{
     color: white;
@@ -288,12 +287,13 @@ body{
 
  }
  .team-details{
-    display: inline-flex;
-    padding-bottom: 0px;
+    display: flex;
+    width: 232px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 8px;
+    padding-bottom: 32px;
  }
 .section-three-list-item-name{
     color:var(--navy-blue);
@@ -313,10 +313,10 @@ body{
 /*footer*/
 .footer{
     background-color: var(--navy-blue);
-    width: 1158px;
+    width: 1440px;
     flex-shrink: 0;
     padding-top:101.5px;
-    padding-left:75px;
+    padding-left:156px;
 }
 .footer-logo {
     color: white;
@@ -344,19 +344,20 @@ body{
 /*Portfolio Formatting*/
 .filter{
     background-color: white;
-    width: 1158px;
+    width: 1440px;
     padding-bottom:72px;
+    padding-left:156px;
+}
+.filter-list-container{
+    padding: 96px 271px 72px;
     
-   
 }
 .filter-list {
-    padding: 96px 286px 72px;
     list-style: none;
     white-space: nowrap;
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
-    padding-left: 286px;
 }
 .btn-filter {
     font-size: 16px;
@@ -383,18 +384,15 @@ body{
   
 }
 .project-cards {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
 
     display:flex;
-    gap:24px;
-
     flex-wrap: wrap;
-    justify-content: space-between;
-
-    width: 1128px;
+    gap:24px;
+    justify-content: center;
     flex-shrink: 0;
+    width: 1128px;
+    list-style: none;
+    
 
 }
 .cards{
@@ -407,7 +405,6 @@ body{
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
-
     border: 1px solid var(--cornflower);
     background: white;
 }
@@ -430,6 +427,10 @@ body{
 .project-cards-item{
     flex: 0 0 calc(33.33% - 20px);
     margin-bottom: 48px
+}
+.project-cards-item img{
+    max-width: 100%;
+    height: auto;
 }
 .project-cards-category{
     color: var(--slate);
